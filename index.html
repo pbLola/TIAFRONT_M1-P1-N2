@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
       name="description"
       content="Cobertura completa do protesto que reuniu milhares na cidade — fotos, estatísticas e análise. Leia a matéria e veja as imagens."
     />
-    <title>anchete: Protesto reúne milhares na cidade — Jornal TIA</title>
+    <title>Manchete: Protesto reúne milhares na cidade — Jornal TIA</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?
@@ -16,5 +16,164 @@ family=Poppins:wght@400;500;600;700;800&display=swap"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header role="banner" class="hgroup">
+      <section>
+        <h1 id="site-title">Jornal TIA</h1>
+        <p id="site-tag">Notícias que importam</p>
+      </section>
+      <nav role="navigation" aria-label="Menu Principal">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Notícias</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article aria-labelledby="headline">
+        <header>
+          <h2 id="headline">Protesto reúne milhares de ruas da cidade.</h2>
+          <p class="lead">
+            Multidão protesta por mudanças nas políticas públicas; organizadores
+            e autoridades divergem em números
+          </p>
+        </header>
+        <figure>
+          <img
+            src="assets/img/img4.png"
+            alt="Vista aérea do protesto com milhares de pessoas na avenida principal"
+            width="1200"
+            height="675"
+          />
+          <figcaption>Foto: João Silva / Jornal TIA</figcaption>
+        </figure>
+        <section aria-labelledby="sec-resumo">
+          <h3 id="sec-resumo">Resumo dos acontecimentos</h3>
+          <p>
+            Milhares de pessoas se reuniram na manhã do sábado para protestar
+            contra medidas anunciadas pelo governo. A manifestação, iniciada às
+            9h, seguiu pacífica até o fim do início da tarde.
+          </p>
+          <p>
+            Organizadores afirmam que 10 mil pessoas participaram; a política
+            estima 4 mim. Veja abaixo uma tabela com números e comparativos
+            históricos
+          </p>
+        </section>
+        <section aria-labelledby="sec-tabela">
+          <h3 id="sec-tabela">Dados da manifestação</h3>
+          <table>
+            <caption>
+              Tabela: estimativas e comparativos
+            </caption>
+            <thead>
+              <th>Item</th>
+              <th>Organizadores</th>
+              <th>Polícia</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Participantes (estimativa)</td>
+                <td>10.000</td>
+                <td>4.000</td>
+              </tr>
+              <tr>
+                <td>Início</td>
+                <td>09:00</td>
+                <td>09:00</td>
+              </tr>
+              <tr>
+                <td>Bloqueios</td>
+                <td>3 ruas</td>
+                <td>2 ruas</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section aria-labelledby="sec-imagens">
+          <h3 id="sect-imagens">Galeria</h3>
+          <figure>
+            <img
+              src="assets/img/img2.png"
+              alt="Público no cruzamento principal segurando cartazes"
+              width="800"
+              height="450"
+            />
+            <figcaption>
+              Público no cruzamento principal. Foto: Fulana Costa
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/img/img3"
+              alt="Voluntários ajudando pessoas no local"
+              width="800"
+              height="450"
+            />
+            <figcaption>
+              Voluntários auxiliam Participantes. Foto: Equipe Jornal TIA
+            </figcaption>
+          </figure>
+        </section>
+        <section aria-labelledby="sec-fonte">
+          <h3 id="sec-fonte">Fontes e leitura complementar</h3>
+          <ul>
+            <li>
+              <a
+                href="https://example.com/reportagem"
+                target="_blank"
+                rel="noopener"
+                >Reportagem externa sobre o protesto</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://example.org/estatisticas"
+                target="_blank"
+                rel="noopener"
+                >Dados históricos de manifestações</a
+              >
+            </li>
+          </ul>
+        </section>
+      </article>
+      <aside aria-labelledby="about-author">
+        <section id="about-author">
+          <h3>Sobre a autora</h3>
+          <figure>
+            <img
+              src="assets/img/img5.png"
+              alt="Retrato da repórter Fulana Costa"
+              width="300"
+              height="300"
+            />
+            <figcaption>Fulana Costa — Repórter</figcaption>
+          </figure>
+          <p>
+            Repórter especializada em política desde 2018. Contato
+            <a href="mailto:ana@jornaltia.com">ana@jornaltia.com</a>
+          </p>
+        </section>
+        <section id="Tags">
+          <h4>Tags</h4>
+          <ul>
+            <li><a href="#">Política</a></li>
+            <li><a href="#">Cidadania</a></li>
+            <li><a href="#">Protestos</a></li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+    <footer role="contentinfo">
+      <nav aria-label="Rodapé">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2025 Jornal TIA — Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
