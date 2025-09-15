@@ -5,6 +5,8 @@ O projeto aplica boas práticas de **HTML5 semântico, acessibilidade (ARIA + vi
 
 ---
 
+![Print do Projeto](assets/img/screeshot.png)
+
 ## ✨ Funcionalidades
 
 - Estrutura semântica com `header`, `main`, `article`, `aside` e `footer`.
