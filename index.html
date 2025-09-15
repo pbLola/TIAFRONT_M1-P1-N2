@@ -10,14 +10,13 @@
     <title>Manchete: Protesto reúne milhares na cidade — Jornal TIA</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?
-family=Poppins:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header role="banner" class="hgroup">
+    <header role="banner">
       <section>
         <h1 id="site-title">Jornal TIA</h1>
         <p id="site-tag">Notícias que importam</p>
@@ -29,6 +28,15 @@ family=Poppins:wght@400;500;600;700;800&display=swap"
           <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
+      <form role="search" aria-label="Pesquisa" action="#" method="get">
+        <label for="search-input" class="visually-hidden">Pesquisar</label>
+        <input
+          id="search-input"
+          type="search"
+          name="q"
+          placeholder="Pesquisar notícia..."
+        />
+      </form>
     </header>
     <main>
       <article aria-labelledby="headline">
@@ -68,9 +76,11 @@ family=Poppins:wght@400;500;600;700;800&display=swap"
               Tabela: estimativas e comparativos
             </caption>
             <thead>
-              <th>Item</th>
-              <th>Organizadores</th>
-              <th>Polícia</th>
+              <tr>
+                <th>Item</th>
+                <th>Organizadores</th>
+                <th>Polícia</th>
+              </tr>
             </thead>
             <tbody>
               <tr>
@@ -92,7 +102,7 @@ family=Poppins:wght@400;500;600;700;800&display=swap"
           </table>
         </section>
         <section aria-labelledby="sec-imagens">
-          <h3 id="sect-imagens">Galeria</h3>
+          <h3 id="sec-imagens">Galeria</h3>
           <figure>
             <img
               src="assets/img/img2.png"
@@ -106,7 +116,7 @@ family=Poppins:wght@400;500;600;700;800&display=swap"
           </figure>
           <figure>
             <img
-              src="assets/img/img3"
+              src="assets/img/img3.jpg"
               alt="Voluntários ajudando pessoas no local"
               width="800"
               height="450"

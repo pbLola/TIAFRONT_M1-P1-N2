@@ -1,94 +1,58 @@
-```markdown
-# Projeto: Página de Notícia (Nível 2)
+# Projeto: Página de Notícia — Jornal TIA 📰
 
-## 📌 Descrição
-
-Projeto desenvolvido para o **TIA Frontend — Módulo 1, Projeto 2**, com o objetivo de criar uma **página de notícia responsiva** utilizando **HTML5 e CSS3**. O foco está na **estrutura semântica**, **boas práticas de organização** e **estilização moderna**, aplicando conceitos de **responsividade** e **hierarquia de conteúdo**.
+Uma página web semântica e acessível que simula a cobertura de um protesto.  
+O projeto aplica boas práticas de **HTML5 semântico, acessibilidade (ARIA + visually hidden), responsividade e design tokens em CSS**.
 
 ---
 
-## 📂 Estrutura de Pastas
-```
+## ✨ Funcionalidades
 
-📦 projeto-noticia
-┣ 📂 assets
-┃ ┣ 📂 css
-┃ ┃ ┗ 📜 style.css
-┃ ┣ 📂 img
-┃ ┃ ┣ banner.jpg
-┃ ┃ ┣ noticia1.jpg
-┃ ┃ ┣ noticia2.jpg
-┃ ┃ ┗ noticia3.jpg
-┣ 📜 index.html
-┗ 📜 README.md
-
-````
+- Estrutura semântica com `header`, `main`, `article`, `aside` e `footer`.
+- SEO otimizado com `<title>` e `<meta description>`.
+- Navegação acessível:
+  - `role="banner"`, `role="navigation"`, `role="search"`, `role="contentinfo"`.
+  - Labels ocultos com `.visually-hidden`.
+  - Uso de `aria-labelledby` e `aria-label`.
+- Inclusão de imagens com descrições (`alt`) e créditos (`figcaption`).
+- Tabela de dados com `<caption>`, `<thead>`, `<tbody>`.
+- Layout com **CSS Grid e Neumorphism leve**.
+- Design tokens para cores, espaçamentos e tipografia.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
-- **HTML5** (estrutura semântica)
-- **CSS3** (estilização e responsividade)
+## 📂 Estrutura
+
+📁 projeto/
+├── index.html # Página principal
+├── css/
+│ └── style.css # Estilos globais
+└── assets/
+└── img/ # Imagens utilizadas
 
 ---
 
-## 📝 Funcionalidades
-- Layout de página de notícia com **cabeçalho, conteúdo principal e rodapé**.
-- **Menu de navegação** no topo.
-- **Banner de destaque** para a notícia principal.
-- Sessão de **notícias relacionadas**.
-- Layout **responsivo**, adaptando-se a diferentes dispositivos.
+## 🖼️ Tecnologias
+
+- **HTML5 semântico**
+- **CSS3** (variáveis, grid, responsividade, sombras)
+- **Google Fonts (Poppins)**
 
 ---
 
-## 📸 Layout Previsto
-- **Header**: logo + menu de navegação.
-- **Hero (banner)**: imagem de destaque com título da notícia principal.
-- **Conteúdo principal**: corpo da notícia com texto e imagens.
-- **Seção de relacionadas**: cards de notícias com título, imagem e link.
-- **Footer**: informações do site, links adicionais.
+## ⚙️ Melhorias aplicadas na versão final
+
+- Corrigido link do Google Fonts (sem quebra de linha).
+- Corrigido seletor do input: `form input[type="search"]`.
+- Ajustados IDs inconsistentes (`sec-imagens`).
+- Corrigida estrutura da `<table>` com `<thead><tr><th>...`.
+- Corrigida extensão da imagem `img3.png`.
+- Corrigido `box-shadow` do formulário (remoção de vírgulas extras).
+- Manutenção do padrão de espaçamento usando variáveis CSS.
+- Pronto para receber responsividade (grid de 2 colunas em telas médias+).
 
 ---
 
-## ✅ Checklist de Entrega
-- [x] Estrutura em **HTML semântico**
-- [x] Estilização com **CSS3**
-- [x] Página responsiva
-- [x] Conteúdo organizado em seções
-- [x] README documentado
+## 📝 Licença
 
----
-
-## 📖 Como Executar o Projeto
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-noticia.git
-````
-
-2. Acesse a pasta do projeto:
-
-   ```bash
-   cd projeto-noticia
-   ```
-
-3. Abra o arquivo `index.html` no navegador de sua preferência.
-
----
-
-## 🔗 Demonstração
-
-Se publicado no **GitHub Pages**, o link ficará disponível aqui:
-
-```
-https://seu-usuario.github.io/projeto-noticia
-```
-
----
-
-## 👩‍💻 Autoria
-
-Projeto desenvolvido por **Lola** para o curso **TIA Frontend**.
-
-```
-
-```
+Este projeto é de uso educacional.  
+&copy; 2025 Jornal TIA — Todos os direitos reservados.
